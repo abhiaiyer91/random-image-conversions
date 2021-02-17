@@ -17,7 +17,7 @@ async function main() {
         : ``
     }${filePath[3] ? `${filePath[3].replace(`webp`, `jpg`)}` : ``}`;
 
-    sharp(pth).toFile(outputPath);
+    sharp(pth).jpeg({ quality: 100 }).toFile(outputPath);
   });
 }
 
