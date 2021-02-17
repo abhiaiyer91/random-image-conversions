@@ -13,6 +13,6 @@
     "typescript": "^4.1.5"
   },
   "scripts": {
-    "run": "ts-node ./index.ts"
+    "start": "ts-node ./index.ts"
   }
 }
